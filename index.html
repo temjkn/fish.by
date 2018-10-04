@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet/less" type="text/css" href="./styles.less" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<meta property="og:title" content="fish-room.BY" />
+<meta property="og:type" content="fish-room.BY" />
+<meta property="og:url" content="fish-room.BY" />
+<meta property="og:image" content="images/oblojka.png" />
+<script src="less.min.js" ></script>
+<script src="../js/DataBase.js"></script>
+	<title> fish-room.by </title>
+</head>
+
+	<body>
+        <nav>
+                <ul>
+                    <li class="button">
+                        <a class="" href="#" id='tools'>О компании</a></li>
+                    <li class="button">
+                        <a class="" href="#" id='goods'>Продукция</a></li>
+                    <li class="button"> 
+                        <a class="" href="#" id='news'>Новости</a></li>
+                    <li class="button">
+                        <a class="" href="#" id='adress'>Наш адрес</a></li>
+                </ul>
+        </nav>
+        
+        <div class="fon">
+            <div class="title">
+                <div class="down"><p>ВАШ ИДЕАЛЬНЫЙ</p></div>
+                <div class="up"><p>АКВАРИУМ</p></div>
+                <div class="phone">
+                    <p>+375(89)562-38-91</p>
+                    <p>+375(25)654-10-02</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="line">
+            <div class="fast-passage">
+                <div class="card">
+                    <a href="" class="button"><p>Аквариумы</p>
+                    <img src="images/aquarium.png" alt="Аквариумы">
+                    <div><p>Аква́риум — искусственно образованная водная среда обитания в прозрачном резервуаре, предназначенная для содержания организмов-растений и животных, и наблюдения за ними.</p></div>
+                    </a></div>
+                <div class="card">
+                    <a href="" class="button"><p>Рыбки</p> 
+                    <img src="images/fish.png" alt="Рыбки">
+                    <div><p>Аква́риумные рыбы — собирательное название таксономически разнородных рыб, которых содержат и разводят в аквариумах с декоративной целью. Первые упоминания об искусственном разведении рыб в Китае датированы 1500 годом до н. э.</p></div>
+                    </a></div>
+                <div class="card">
+                    <a href="" class="button"><p>Растения</p>
+                    <img src="images/plants.png" alt="Растения">
+                    <div><p>Аквáриумные растения — водные растения, культивируемые в аквариуме. Большинство из них имеют тропическое и субтропическое происхождение, и являются болотными или прибрежными.</p></div>
+                    </a></div>
+                <div class="card">
+                    <a href="#" class="button"><p>Аквариумное оборудование</p>
+                    <img src="images/lamp.png" alt="Аквариумное оборудование">
+                    <div><p>Приспособления и приборы необходимые для обеспечения комфортных условий существования живой флоры аквариума.</p></div>
+                    </a></div>
+            </div>
+        </div>
+        
+        <div class="line">
+            <div class="accordion "><h3>Подбор по параметрам</h3>
+                <form action="#" method="post">
+                    <ul>
+                    <li><h4>Аквариумные рыбки</h4>
+                        <ul>
+                            <li class="trigger">
+                                <input type="checkbox" class="akkord" id="checkbox-1" name="checkbox-1" />
+                                <label for="checkbox-1" class="checkbox">
+                                    Пресноводные<i></i>
+                                </label>
+                                <ul class="content">
+                                    <li><input type="checkbox" id="Guppi">
+                                        <label for="Guppi">Гуппи</label>
+                                    </li>
+                                    <li><input type="checkbox" id="Barbus">
+                                        <label for="Barbus">Барбус</label>
+                                    </li>
+                                    <li><input type="checkbox" id="Molli">
+                                        <label for="Molli">Моллинезия</label>
+                                    </li>
+                                    <li><input type="checkbox" id="Mech">
+                                        <label for="Mech">Меченосец</label>
+                                    </li>
+                                    <li><input type="checkbox" id="Cichlida">
+                                        <label for="Cichlida">Цихлида</label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="trigger">
+                                <input type="checkbox" class="akkord" id="checkbox-2" name="checkbox-2" />
+                                <label for="checkbox-2" class="checkbox">
+                                    Морские<i></i>
+                                </label>
+                                <ul class="content">
+                                    <li><input type="checkbox" id="Griper">
+                                        <label for="Griper">Групер</label>
+                                    </li>
+                                    <li><input type="checkbox" id="Myrena">
+                                        <label for="Myrena">Мурена</label>
+                                    </li>
+                                    <li><input type="checkbox" id="Akula">
+                                        <label for="Akula">Акула кошачья</label>
+                                    </li>
+                                    <li><input type="checkbox" id="Babochka">
+                                        <label for="Babochka">Бабочка</label>
+                                    </li>
+                                    <li><input type="checkbox" id="Centropig">
+                                        <label for="Centropig">Центропиг</label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><input type="checkbox" name="" id="rak">
+                                <label for="rak"><h5>Улитки и ракообразные</h5></label>
+                            </li>
+                        </ul>
+                        <ul><h4>По цвету:</h4>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td><div class="color orangered"><input type="checkbox" name=""></div></td>
+                                         <td><div class="color red"><input type="checkbox" name=""></div></td>
+                                         <td><div class="color gold"><input type="checkbox" name=""></div></td>
+                                        <td><div class="color yellowgreen"><input type="checkbox" name=""></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="color darkolivegreen"><input type="checkbox" name=""></div></td>
+                                        <td><div class="color turquoise"><input type="checkbox" name=""></div></td>
+                                         <td><div class="color darkcyan"><input type="checkbox" name=""></div></td>
+                                         <td><div class="color darkblue"><input type="checkbox" name=""></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="color deeppink"><input type="checkbox" name=""></div></td>
+                                        <td><div class="color magenta"><input type="checkbox" name=""></div></td>
+                                         <td><div class="color sienna"><input type="checkbox" name=""></div></td>
+                                         <td><div class="color tomato"><input type="checkbox" name=""></div></td>
+                                    </tr>
+                                   
+                                </table>
+                            </li>
+                        </ul>
+                       </li> 
+                    <li><h4>Растения</h4>
+                        <ul>
+                            <li><input type="checkbox" name="">Плавующие</li>
+                            <li><input type="checkbox" name="">Укореняющиеся</li>
+                        </ul>
+                    </li>
+                    <li><h4>Корм</h4>
+                        <ul>
+                            <li><input type="checkbox" name="">Сухой</li>
+                            <li><input type="checkbox" name="">Живой</li>
+                        </ul>
+                    </li>
+                    <li><h4>Оборудование</h4>
+                        <ul>
+                            <li><input type="checkbox" name="">Грунт</li>
+                            <li><input type="checkbox" name="">Термометры</li>
+                            <li><input type="checkbox" name="">Компрессоры</li>
+                            <li><input type="checkbox" name="">Обогреватели</li>
+                        </ul>
+                    </li>
+                    <li><h4>Аквариумы</h4>
+                        <ul>
+                            <li><input type="checkbox" name="">Прямоугольные</li>
+                            <li><input type="checkbox" name="">Круглые</li>
+                            <li>Индивидуальные</li>
+                        </ul>
+                    </li>
+                </ul>
+                <input type="submit" value="Сбросить">
+                <input type="submit" value="Подобрать">
+                </form>
+            </div>
+            <div class="sector">                
+                <div class="slider">
+                    <h2>Наши питомцы</h2>                    
+                    <figure>
+                        <div class="indicator" id="prev">&lsaquo;</div>
+                        <div class="indicator" id="next">&rsaquo;</div>
+                        <div class="carousel">
+                            <a class="button" href="#">
+                                <img src="images/slides/1.png"> 
+                            </a>
+                        </div>
+                        <div class="carousel">
+                            <a class="button" href="#">
+                                <img src="images/slides/2.png">                
+                            </a>
+                        </div>
+                        <div class="carousel">
+                            <a class="button" href="#">
+                                <img src="images/slides/3.png">                
+                            </a>
+                        </div>
+                        <div class="carousel">
+                            <a class="button" href="#">
+                                <img src="images/slides/4.png">                
+                            </a>
+                        </div>
+                        <div class="carousel">
+                            <a class="button" href="#">
+                                <img src="images/slides/5.png">                
+                            </a>
+                        </div>
+                        <div class="carousel">
+                            <a class="button" href="#">
+                                <img src="images/slides/6.png">                
+                            </a>
+                        </div>                          
+                    </figure>                    
+                </div>
+                <div>
+                    <h2>Новости</h2>
+                    <div class="news">
+                        <div class="big">
+                        <div class="text_news">
+                            <h2>Разведение рыбок в домашних условиях</h2>
+
+                            <p>Один из самых сложных, но полезных аспектов аквариумистики является разведение рыбок в домашних условиях. Зачастую первые попытки оканчиваются неудачей, чтобы далее всё проходило гладко потребуется поднакопить опыт и знания об особенностях размножения тех или иных видов. Аквариумных рыбок можно разделить на две обширные группы по способу размножения — икромечущие и живородящие виды (живородки).
+                            Рыба откладывает икруИкромечущие виды используют практику внешнего оплодотворения, когда самка откладывает сотни или тысячи икринок, а самец одновременно с этим выпускает своё семя. Это довольно бессистемный метод и неудивительно, что многие икринки остаются неоплодотворёнными. Шансы несколько повышаются, когда пара в этот момент прижимается друг к другу, словно обнимаясь плавниками. Инкубационный период короткий, длится около 36 часов, но в это время икринки подвергаются максимальной опасности быть съеденными, поэтому некоторые виды выработали механизмы защиты. Одни откладывают икринки в трудно доступных местах (пещеры, пустые раковины, нижняя сторона листьев растений и т. д.), другие остаются охранять кладку от посторонних, третьи носят икринки с собой во рту и даже в случае опасности прячут в нём своих появившихся малышей</p>
+                        </div>
+                        
+                        <div class="read"><a href="news/razmnojenie_ribok.html">читать дальше</a></div>
+                    </div>
+                        <div class="big2">
+                        <div class="small">
+                            <div class="text_news">
+                                <h2>Разновидности кормов для рыбок</h2>
+
+                                 <p>Когда интерес к разведению и содержанию рыб только зарождался, корм было принято изготавливать своими руками. Как правило, водных питомцев кормили всевозможными пищевыми отходами: вареными яйцами, овощами, дождевыми червями, говяжьим сердцем и трубочниками. Некоторые продукты по сегодняшний день используются аквариумистами.</p>
+                            </div>
+
+                            <div class="read"><a href="news/razmnojenie_ribok.html">читать дальше</a></div>
+                        </div>
+                        <div class="small">
+                        <div class="text_news">
+                            <h2>Волк, коза и капуста: выбор рыб для пресноводного аквариума</h2>
+                            <p>Кого поселить в аквариум? Для некоторых начинающих аквариумистов этот вопрос, как ни странно, может показаться не существенным. Действительно, пойду в зоомагазин, куплю тех, кто понравится – и всех делов. А между тем правильный выбор жителей аквариума в дальнейшем сэкономит Вам массу нервов и средств.</p>
+                        </div>
+                        <div class="read"><a href="news/razmnojenie_ribok.html">читать дальше</a></div>
+
+                    </div>
+                    </div>  
+                    </div>
+                      
+                </div>
+            </div>
+            <div class="goods">
+                    <h2>Аквариумные рыбки:</h2>
+                    <div class="products">
+                        <div class="container">
+                             <div class="front side">
+                               <div class="content">
+                                     <img src="images/slides/1.png" alt="guppi">
+                                 </div>
+                             </div>
+                             <div class="back side">
+                               <div class="content">
+                                   <h4>Краткие характеристики</h4>
+                                   <table>
+                                        <tr>
+                                            <td>Тип воды:</td>
+                                            <td class="water">пресная</td>
+                                        </tr>
+                                       <tr>
+                                            <td>Название:</td>
+                                            <td class="name">Гуппи</td>
+                                        </tr>
+                                       <tr>
+                                            <td>Размер врослой особи(см.):</td>
+                                            <td class="size">3</td>
+                                        </tr>
+                                       <tr>
+                                            <td>Пол:</td>
+                                            <td class="sex">самец</td>
+                                        </tr>
+                                       <tr>
+                                            <td>Цена (р.):</td>
+                                            <td class="price">5</td>
+                                        </tr>
+                                   </table>
+                                 </div>
+                                 <bottom class="basket" >В корзину</bottom>
+                             </div>
+                            <bottom class="basket">В корзину</bottom>
+                        </div>
+                </div>
+                </div>
+        </div>
+        <footer>
+            <div class="namber">
+                <table>
+                    <tr>
+                        <td><img src="images/mts.png"></td>
+                        <td><a href="tel:+375895623891">+375(89) 562-38-91</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/life.png"></td>
+                        <td><a href="tel:+375256541002">+375(25) 654-10-02</a></td>
+                    </tr>
+                </table>
+                <p>Мы в социальных сетях:</p>
+                <ul>
+                    <li><a href="#"><img src="images/vk.png"></a></li>
+                    <li><a href="#"><img src="images/inst.png"></a></li>
+                    <li><a href="#"><img src="images/facebook.png"></a></li>
+                    <li><a href="#"><img src="images/viber.png"></a></li>
+                </ul>
+            </div>
+            <div class="design">
+                <p>Разработанно студией дизайна Sam_sebe_dizainer.com</p>
+            </div>
+        </footer>
+            <div class="modal">
+                            <div class="modal_back"></div>
+                            <div class="modal_content">
+                                <img src="images/slides/2.png">
+                                <table>
+                                        <tr>
+                                            <td>Тип воды:</td>
+                                            <td class="water">пресная</td>
+                                        </tr>
+                                       <tr>
+                                            <td>Название:</td>
+                                            <td class="name">Гуппи</td>
+                                        </tr>
+                                       <tr>
+                                            <td>Размер врослой особи(см.):</td>
+                                            <td class="size">3</td>
+                                        </tr>
+                                       <tr>
+                                            <td>Пол:</td>
+                                            <td class="sex">самец</td>
+                                        </tr>
+                                       <tr>
+                                            <td>Цена (р.):</td>
+                                            <td class="price">5</td>
+                                        </tr>
+                                   </table>
+                                <div>Количество:</div>
+                                <div>Товаров в корзине:</div>
+                                <button id="next">Продолжить</button>
+                                <button id="buy">Купить</button>
+                            </div>
+                        </div>
+        <script>
+            var basket= document.getElementsByClassName("basket");//running modal
+basket.onclick=function(){
+    var modal=document.getElementsByClassName("modal");
+    modal.className="modal_block";
+        </script>
+        <script src="../js/myJs.js"></script>
+    </body>
+</html>
